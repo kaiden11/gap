@@ -1,4 +1,4 @@
-# gap
+# gap.pl
 
 Statistical log gap analysis.
 
@@ -27,11 +27,13 @@ the date field as a timestamp.
 ## Options
 
     --delimiter=S
+        
         Similar to the -d flag for the Unix cut utility,
         this can be used to specify the delimiter used to
         divided the record into seperate fields.
 
     --field=[range, [range]]
+        
         Similar to the field specification for the Unix cut
         utility. Possible formats:
         
